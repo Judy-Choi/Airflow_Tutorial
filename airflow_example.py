@@ -46,7 +46,7 @@ default_args = {
 }
 
 with DAG(
-    # DAG의 이름
+    # DAG name
     'sum_of_list',
     default_args=default_args,
     # Run every 10 minutes
